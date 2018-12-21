@@ -21,7 +21,9 @@ buildTypes {
 
 # Jacoco coverage report
 
-### Run /gradlew jacocoTestReport command
+### Run below command in Android studio Terminal
+
+*/gradlew jacocoTestReport*
 
 Both android default and Jacoco report will be generaged 
 
