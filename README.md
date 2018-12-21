@@ -1,4 +1,22 @@
-# Unified Code Coverage for Android
+
+# Android Studio default process
+
+### Enable test coverage first at app lavel gradle
+
+```
+buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            testCoverageEnabled true
+        }
+    }
+```
+
+
 
 A sample project showcase of how to merge the coverage data from both `androidTest` and `test`.
 
