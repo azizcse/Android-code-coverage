@@ -29,5 +29,10 @@ Both android default and Jacoco report will be generaged
 
 ![Alt Text](https://github.com/azizcse/Android-code-coverage/blob/master/img/coverage_report.png)
 
+# Open index.html with browser
+
+![Alt Text](https://github.com/azizcse/Android-code-coverage/blob/master/img/result.png)
+
+
 
 
